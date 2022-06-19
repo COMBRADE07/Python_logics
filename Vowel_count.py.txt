@@ -1,5 +1,9 @@
+#python code for calculate vowels substring in given string
+
+#inputs
 N = int(input("Enter size: "))
 # s = input("Enter String: ")
+#accept string and convert it into lower case
 S = input("Enter String: ").lower()
 #list for store vowels
 V = ['a', 'e', 'i', 'o', 'u']
@@ -26,3 +30,4 @@ if cnt ==0 and cnt_g>=1:
 else:
     print(cnt)
 # print(X)
+# @Author - Rhutik Chaudhari (:)
